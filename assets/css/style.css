@@ -150,6 +150,7 @@ h6 {
 }
 h1 {
     font-size: calc(80px + 1vw);
+    font-family: 'Playfair Display', serif;
 }
 h2 {
     font-size: calc(36px + 16 * (100vw - 992px) / 1508);
@@ -1336,3 +1337,32 @@ footer {
         display: none;
     }
 }
+
+
+
+/* Marcos Styling Below */
+.contact-title p{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.contact-btm-pad {
+	padding-bottom: 20px;
+}
+
+.direct-email a {
+	color: #000;
+}
+
+.direct-email a:hover {
+	opacity: .6;
+}
+
+.gallery-quote {
+	font-style: italic;
+}
+
+.page-desc {
+	width: 75vh;
+}
+
