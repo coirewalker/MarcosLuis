@@ -1384,10 +1384,6 @@ a:hover {
 
 
 /* CURRENT PROJECTS */
-.projects-list {
-	list-style-type: circle;
-}
-
 .projects-list li {
 	padding-bottom: 20px;
 }
