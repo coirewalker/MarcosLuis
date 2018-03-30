@@ -1341,6 +1341,25 @@ footer {
 
 
 /* Marcos Styling Below */
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: -3px;
+	font-size: calc(73px + 1vw);
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #726f6f;
+}
+
 .contact-title p{
 	font-style: italic;
 	text-decoration: underline;
@@ -1366,19 +1385,6 @@ footer {
 	width: 75vh;
 }
 
-h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	letter-spacing: -3px;
-	font-size: calc(73px + 1vw);
-}
-
-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
-}
-
 .slide-inner--info h2 {
 	color: #fff;
 }
@@ -1386,3 +1392,37 @@ h2 {
 .block__no-margin {
 	margin: 0 auto;
 }
+
+/* HOMEPAGE IMAGE CSS */
+@media (min-width: 768px;) {
+	.homepage-1 {
+		background-image: url('assets/images/home-slider/landing-2.jpg')
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
