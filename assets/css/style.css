@@ -1402,29 +1402,42 @@ a:hover {
 
 .projects-list li a {
 	font-size: 20px;
+	color: #666;
+	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .projects-list span {
 	font-style: italic;
 }
 
-
+.contact-link-a a {
+	font-size: 20px;
+	color: #666;
+	text-transform: uppercase;
+	font-weight: 400;
+}
 
 
 /* CONTACT */
-.contact-title p{
-	font-family: 'Raleway';
+.contact-title p {
 	line-height: 1.2;
-	font-style: italic;
 	font-size: 20px;
+	color: #666;
+	text-transform: uppercase;
+}
+
+#contact p {
+	margin-top: 0;
+}
+
+#contact h6 {
+	margin-bottom: 0;
+	font-weight: bold;
 }
 
 .contact-btm-pad {
 	padding-bottom: 20px;
-}
-
-.direct-email a {
-	color: #000;
 }
 
 .direct-email a:hover {
