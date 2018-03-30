@@ -1354,15 +1354,69 @@ h2 {
 	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
 }
 
-h4 {
-	font-family: 'Montserrat', sans-serif;
+h3, h4 {
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	color: #726f6f;
 }
 
-.contact-title p{
+a {
+	color: #000;
+	font-weight: bold;
+}
+
+a:hover {
+	opacity: .6;
+}
+
+
+
+
+/*  NAVBAR */
+.ms-navbar a {
+    font-family: 'Montserrat';
+}
+
+.nav-item__label {
+	font-family: 'Raleway';
+}
+
+
+
+
+/* ABOUT */ 
+.ms-section__block {
+    margin: 0 auto 3em;
+}
+
+
+
+
+/* CURRENT PROJECTS */
+.projects-list {
+	list-style-type: circle;
+}
+
+.projects-list li {
+	padding-bottom: 20px;
+}
+
+.projects-list li a {
+	font-size: 20px;
+}
+
+.projects-list span {
 	font-style: italic;
-	text-decoration: underline;
+}
+
+
+
+
+/* CONTACT */
+.contact-title p{
+	font-family: 'Raleway';
+	line-height: 1.2;
+	font-style: italic;
+	font-size: 20px;
 }
 
 .contact-btm-pad {
@@ -1393,12 +1447,7 @@ h4 {
 	margin: 0 auto;
 }
 
-/* HOMEPAGE IMAGE CSS */
-@media (min-width: 768px;) {
-	.homepage-1 {
-		background-image: url('assets/images/home-slider/landing-2.jpg')
-	}
-}
+
 
 
 
