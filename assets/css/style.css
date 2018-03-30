@@ -1345,7 +1345,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	letter-spacing: -3px;
-	font-size: calc(73px + 1vw);
+	font-size: calc(65px + 1vw);
 }
 
 h2 {
@@ -1378,14 +1378,6 @@ a:hover {
 
 .nav-item__label {
 	font-family: 'Raleway';
-}
-
-
-
-
-/* ABOUT */ 
-.ms-section__block {
-    margin: 0 auto 3em;
 }
 
 
