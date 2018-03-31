@@ -150,7 +150,7 @@ h6 {
 }
 h1 {
     font-size: calc(80px + 1vw);
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
 }
 h2 {
     font-size: calc(36px + 16 * (100vw - 992px) / 1508);
@@ -738,7 +738,7 @@ p {
 .slide-inner--info h1 {
     margin: 10px 0;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: bold;
     line-height: 1em;
     color: #fff;
 }
@@ -1343,14 +1343,14 @@ footer {
 /* Marcos Styling Below */
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-weight: bold;
 	letter-spacing: -3px;
 	font-size: calc(65px + 1vw);
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-weight: bold;
 	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
 }
 
