@@ -1358,6 +1358,7 @@ h3, h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     text-transform: uppercase;
+    color: #666;
 }
 
 a {
@@ -1391,7 +1392,6 @@ a:hover {
 
 .projects-list li a {
     font-size: 20px;
-    color: #666;
     font-weight: 500;
     font-style: italic;
 }
