@@ -1343,14 +1343,14 @@ footer {
 /* Marcos Styling Below */
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: 900 !important;
 	letter-spacing: -3px;
 	font-size: calc(65px + 1vw);
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: 900 !important;
 	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
 }
 
