@@ -1350,7 +1350,7 @@ h1 {
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 900 !important;
+	font-weight: 700 !important;
 	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
 }
 
@@ -1389,10 +1389,10 @@ a:hover {
 }
 
 .projects-list li a {
-	font-size: 20px;
-	color: #666;
-	text-transform: uppercase;
-	font-weight: 400;
+    font-size: 20px;
+    color: #666;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .projects-list span {
@@ -1402,8 +1402,8 @@ a:hover {
 .contact-link-a a {
 	font-size: 20px;
 	color: #666;
-	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 500;
+	font-style: italic;
 }
 
 
@@ -1411,8 +1411,14 @@ a:hover {
 .contact-title p {
 	line-height: 1.2;
 	font-size: 20px;
-	color: #666;
-	text-transform: uppercase;
+	font-style: italic;
+}
+
+.contact-title h4 {
+	font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: calc(27px + 16 * (100vw - 992px) / 1508);
+    color: #666;
 }
 
 #contact p {
