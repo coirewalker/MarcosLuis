@@ -1373,6 +1373,7 @@ a:hover {
 
 
 
+
 /*  NAVBAR */
 .ms-navbar a {
     font-family: 'Montserrat';
@@ -1403,7 +1404,6 @@ a:hover {
 .contact-link-a a {
 	font-size: 20px;
 	font-weight: 500;
-	font-style: italic;
 }
 
 
@@ -1453,9 +1453,6 @@ a:hover {
 .block__no-margin {
 	margin: 0 auto;
 }
-
-
-
 
 
 
