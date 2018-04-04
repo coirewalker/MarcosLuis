@@ -1388,13 +1388,12 @@ a:hover {
 
 /* CURRENT PROJECTS */
 .projects-list li {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .projects-list li a {
     font-size: 20px;
     font-weight: 500;
-    font-style: italic;
 }
 
 .projects-list span {
