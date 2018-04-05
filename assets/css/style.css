@@ -1455,7 +1455,11 @@ a:hover {
 
 
 
-
+/*CREDITS */
+.credits {
+	text-align: center;
+	padding-bottom: 40px;
+}
 
 
 
