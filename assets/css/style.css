@@ -1333,9 +1333,9 @@ footer {
     .ms-footer .copyright {
         margin-left: auto;
     }
-    .ms-footer .socials {
+/*    .ms-footer .socials {
         display: none;
-    }
+    }*/
 }
 
 
@@ -1455,17 +1455,40 @@ a:hover {
 
 
 
-/*CREDITS */
-.credits {
-	text-align: center;
-	padding-bottom: 40px;
-	font-size: 13px;
+/* NEW FOOTER */
+.watermark {
+	padding-bottom: 20px;
 }
 
+.watermark>p {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
+.socials {
+	text-align: right;
+	margin-bottom: 20px;
+}
 
+.socials ul {
+	margin-top: 24px;
+}
 
+.copyright {
+	text-align: left;
+}
 
+.copyright>p {
+	font-size: 15px;
+}
+
+.footer-wrapper {
+	width: 85%;
+    max-width: 88em;
+    margin: 0 auto;
+}
 
 
 
